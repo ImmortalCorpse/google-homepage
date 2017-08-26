@@ -1,0 +1,154 @@
+*{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #404040;
+}
+
+body{
+	margin: 0;
+	color: grey;
+}
+
+.header{
+	position: relative;
+	height: 10px;
+	margin: 15px 0 30px 0;
+}
+
+ul{
+	display: flex;
+	position: absolute;
+	margin: 0 20px;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+li{
+	list-style-type: none;
+	font-family: sans-serif;
+	margin:0 10px;
+	display: inline;
+
+}
+
+#text:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+#img{
+	opacity: 0.5;
+}
+
+#img:hover{
+	opacity: 0.8;
+}
+
+.search{
+	display: block;
+	height: 300px;
+	width: 900px;
+	margin: 170px auto;
+}
+
+#main_logo{
+	text-align: center;
+	display:block;
+	margin: 0 auto 30px;
+}
+
+#country{
+	color: #3399FF;
+	font-size: 17px;
+	margin: -50px 528px;
+}
+
+input[type=text] {
+	object-position: center;
+    width: 65%;
+    padding: 15px 20px;
+    margin: 100px 160px;
+    border-radius: 0px;
+    border:medium none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+#inner_img{
+	position: absolute;
+	margin: -127px 750px;
+}
+
+input:hover{
+	box-shadow: 0px 0px 2px black;
+}
+
+p{
+	object-position: center;
+	position: relative;
+	margin: -70px;
+	display: block;
+}
+
+button{
+	opacity:0.9;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 0 3px;
+	border:none;
+	padding: 10px 15px;
+	background-color: #E0E0E0;
+	border-style: solid;
+	border-color: white;
+	border-radius: 2px;
+}
+
+button:hover{
+	opacity: 1;
+	background-color: #F3F3F3;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #adadad;
+}
+
+#add_links{
+	margin: 100px 340px ;
+}
+
+.footer{
+	/*background-color: #E0E0E0;
+	display: inline;
+		height: 10px;
+	margin: 15px 0 30px 0;
+	position: relative;*/
+	font-family: sans-serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	justify-content: space-around;
+	display: flex;	
+	height: 40px;
+	align-items: center;
+    border-top: 0.5px solid #d9d9d9;
+}
+
+.left{
+	margin-left: 0px;
+	margin-top: 125px;
+}
+.right{
+	margin-left: 750px;
+	margin-top: 125px
+}
+
+#links{
+	margin: 10px;
+}
+
+#links:hover{
+	text-decoration: underline;
+	color: black;
+}
